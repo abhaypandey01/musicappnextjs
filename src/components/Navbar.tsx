@@ -63,14 +63,14 @@ export default function Navbar() {
             {item.submenu ? (
               <button
                 onClick={() => handleClick(index)}
-                className="text-gray-300 font-semibold hover:text-blue-300 focus:outline-none"
+                className="text-gray-300 font-semibold hover:text-blue-500 focus:outline-none"
               >
                 {item.title}
               </button>
             ) : item.href ? (
               <Link
                 href={item.href}
-                className="text-gray-300 font-semibold hover:text-blue-300"
+                className="text-gray-300 font-semibold hover:text-blue-500"
               >
                 {item.title}
               </Link>
